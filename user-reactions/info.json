@@ -1,0 +1,8 @@
+{
+    "author" : ["owlthechill"],
+    "install_msg" : "Thank you for installing the user-reactions cog! Your bot is now equipped to react to commands with both reactions and personalized messages, adding a touch of personality to your interactions.",
+    "name" : "user-reactions",
+    "short" : "Enhance user interactions with custom reactions and messages.",
+    "description" : "The user-reactions cog for Red-DiscordBot is designed to add personality to your bot by allowing it to react to command messages with both emoji reactions and customizable messages. Choose from a list of pre-defined messages or add your own to create engaging and interactive experiences.",
+    "tags" : ["Red-DiscordBot", "cogs", "reactions", "user interaction", "customization", "discord"]
+}
