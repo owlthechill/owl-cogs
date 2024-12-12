@@ -1,0 +1,8 @@
+{
+    "author" : ["owlthechill"],
+    "install_msg" : "Thank you for installing owl-cogs! Enhance your bot's personality with our unique and customizable cogs.",
+    "name" : "owl-cogs",
+    "short" : "Custom cogs for Red-DiscordBot.",
+    "description" : "Owl-cogs is a repository designed to host custom cogs for the Red-DiscordBot, aimed at adding personality and unique features to your bot. These cogs are tailored to provide engaging and interactive experiences, making your bot more fun and user-friendly.",
+    "tags" : ["Red-DiscordBot", "cogs", "personality", "customization", "discord"]
+}
