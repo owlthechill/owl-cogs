@@ -1,5 +1,8 @@
 import discord
 from redbot.core import commands
+import asyncio
+
+reaction_lock = asyncio.Lock()
 
 class ReactionCog(commands.Cog):
     def __init__(self, bot):
@@ -8,5 +11,8 @@ class ReactionCog(commands.Cog):
     @commands.Cog.listener()
     async def on_command(self, ctx):
         # Send a reaction
-        await ctx.message.add_reaction("🐕‍🦺")
+        async with reaction_lock:
+            await ctx.message.add_reaction("🐕‍🦺")
+            await asyncio.sleep(0.25)
+            
 
