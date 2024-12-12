@@ -7,5 +7,6 @@ class ReactionCog(commands.Cog):
 
     @commands.Cog.listener()
     async def on_command(self, ctx):
-        # This will trigger for any command attempted
-        await ctx.send(f"Command {ctx.command} was attempted by {ctx.author}.")
+        # Send a reaction
+        await ctx.message.add_reaction("🐕‍🦺")
+
