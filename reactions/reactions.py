@@ -12,6 +12,7 @@ class ReactionCog(commands.Cog):
     async def on_command(self, ctx):
         # Send a reaction
         async with reaction_lock:
+            await asyncio.sleep(1)
             await ctx.message.add_reaction("🐕‍🦺")
             await asyncio.sleep(0.25)
             
